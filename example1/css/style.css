@@ -45,13 +45,16 @@ body{
 	text-align: center;
 }
 #ulist li{
-	background-color: blue;
 	padding:5px;
 	margin-left:10px;
 	border-radius: 5px;
 }
+#ulist li:hover{
+	background-color: blue;
+}
 #ulist li > a{
 	text-decoration: none;
+	color: #ffffff;
 }
 #ulist li > a:hover{
 	color: #ffffff;
