@@ -137,33 +137,6 @@ img{
 #footer .pic1:hover{
 	opacity: 1;
 }
-/*google map section **/
-#map_section{
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
-	margin-top: 10px;
-	background: #55ffcc;
-}
-
-
-/*slider */
-#slider_wrapper{
-	width:100%;
-	height: 300px;
-	background: #991100;
-}
-#slider{
-	width: 500px;
-	margin-right: 30%;
-	margin-left: 30%;
-	height: 300px;
-	background: yellow;
-	display: -webkit-box;
-	-webkit-box-pack: center;
-
-}
-
-
 
 /*bottom of the page */
 #tinydiv{
