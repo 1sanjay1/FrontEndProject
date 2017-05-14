@@ -45,7 +45,7 @@ body{
 .image {
     width:100vw;
     height: 100vh; 
-    background: green;
+    background: #f4f4f4;
     background-image: url('nature.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -119,8 +119,70 @@ ul li ul li:hover{
 }
 
 /*About me page design */
-#section1{
-	
+#section1 #aboutHeader{
+	background-color: #d9edf7; 
+	height: 30vh; 
+	margin-top: 20px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+}
+#section1 #aboutSection{
+	display: -webkit-box; 
+	-webkit-box-orient: horizontal; 
+	-webkit-box-pack: center;
+	color: #4f4f4f;
+}
+
+#input_box table tr input{
+	width: 300px;
+	height: 20px;
+	margin-top: 5px;
+	padding: 2px;
+}
+#submit_button{
+	width: 100%; 
+	height: 40px;
+	margin-top: 5px;
+	padding: 2px;
+	font-size: 20px;
+	background-color: green;
+	border: 0px;
+	border-radius: 2px;
+	color: #ddd;
+}
+#skills_set div{
+	width: 100px;
+	display: block;
+	background: #555;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 5px;
+	font-family: Tahoma,sans-serif;
+	border-radius: 15px;
+	text-align: center;
+}
+
+/** portfolio section **/
+#portfolio_section{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	margin-top: 200px;
+}
+.portfolio_class{
+	height: 100px;
+	background: transparent;
+	margin: 10px;
+	opacity: .3;
+}
+.portfolio_class:hover{
+	-webkit-animation-name: change_opacity;
+	-webkit-animation-duration: 1s;
+}
+@keyframes change_opacity{
+	from{opacity: .3;}
+	to{opacity: 1;}
 }
 
 /* button for scroll to top **/
@@ -143,7 +205,7 @@ ul li ul li:hover{
 	opacity: .8;
 }
 
-footer{
+#last_footer{
 	width: 100%;
 	height: 200px;
 	background: #4f4f4f;
